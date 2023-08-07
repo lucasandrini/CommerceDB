@@ -1,0 +1,18 @@
+-- Tabla de log CLIENTE
+CREATE TABLE LOG_CLIENTE (
+    id_cliente INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(50) NOT NULL,
+    apellido VARCHAR(50) NOT NULL,
+    usuario VARCHAR(50)NOT NULL,
+    fecha_hora DATETIME NOT NULL
+);
+
+-- Tabla de log PRODUCTO
+CREATE TABLE LOG_PRODUCTO (
+    id_producto INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    descripcion VARCHAR(50) NOT NULL,
+    precio DECIMAL(11,2) NOT NULL,
+    stock INT NOT NULL,
+	usuario VARCHAR(50) NOT NULL,
+    fecha_hora DATETIME NOT NULL
+);
