@@ -39,7 +39,7 @@ CALL sp_ordenar_productos('descripcion', 'ASC');
 CALL sp_ordenar_productos('precio', 'DESC');
 
 -- Para insertar un nuevo producto:
-CALL sp_insertar_producto('Nuevo Producto', 25.99, 100);
+CALL sp_insertar_producto('Nuevo Producto', 25.00, 100);
 
 -- Ver tabla PRODUCTOS con nuevo producto agregado
 SELECT p.*

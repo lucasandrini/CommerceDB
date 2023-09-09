@@ -34,6 +34,6 @@ END$$
 
 DELIMITER ;
 
-SELECT calcularVentasProducto('2023-07-26', '2023-07-30', 1) AS total_ventas_producto_1;
+SELECT calcularVentasProducto('2020-07-26', '2023-09-09', 1) AS total_ventas_producto_1;
 
 SELECT aplicarDescuento(29.99, 10) AS precio_final_con_descuento;
